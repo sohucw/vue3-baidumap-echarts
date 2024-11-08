@@ -1,0 +1,40 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #05143d;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --main-color: #95e331;
+  --margin: 1rem;
+  --padding: 1rem;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  flex: 1;
+}
+
+.padding1 {
+  padding: var(--padding);
+  box-sizing: border-box;
+}
+
+/* 图表 */
+.dv-scroll-ranking-board .ranking-column .inside-column {
+  border-radius: 4px !important;
+}
